@@ -51,6 +51,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    border: 1px solid red !important;
 }
 
 html, body {
@@ -192,6 +193,13 @@ footer {
 
 /* This is 800px */
 @media(max-width: 800px) {
+
+    .container .cta {
+        display:block;
+        width: 80%;
+        margin: 0 auto;
+        height: 70vh;
+    }
     header {
     display:flex;
     flex-direction: column;
@@ -229,7 +237,7 @@ footer {
     }
     header nav a {
         border-bottom: 3px solid lightgray;
-        font-size: 100%;
+        font-size: 130%;
         padding-top: 13px;
         padding-bottom: 22px;
         display: flex;
@@ -280,5 +288,6 @@ footer {
     }
     .bottom-content .text-content p {
         width: 80%;
+        padding-bottom: 6%;
     }
 }
