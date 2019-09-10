@@ -166,7 +166,6 @@ header .logo {
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
   margin-right: 12px;
 }
 
@@ -285,8 +284,9 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    
     .bottom-content .text-content p {
-        width: 80%;
+        width: 100%;
         padding-bottom: 6%;
     }
 }
